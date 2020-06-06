@@ -1,0 +1,49 @@
+$item-width: 360;
+$gutter: 30;
+$item-length: 6;
+
+@function setListContainerMaxWidth($length) {
+    @return (($item-width + $gutter) * $length) + px;
+}
+
+.grid {
+    margin: 0 auto;
+    @for $i from $item-length through 2 {
+        @if($i == $item-length) {
+            max-width: setListContainerMaxWidth($i);
+        }
+
+        @if($i > 2) {
+            @media only screen and (max-width: setListContainerMaxWidth($i)) {
+                max-width: setListContainerMaxWidth($i - 1);
+            }
+        }
+
+        @if($i == 2) {
+            @media only screen and (max-width: setListContainerMaxWidth($i)) {
+                .grid-col {
+                    float: none!important;
+                }
+                .grid-item {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+
+    .grid-row {
+        overflow: hidden;
+        .grid-col {
+            padding: $gutter / 2 + px;
+            float: left;
+        }
+    }
+
+
+    .grid-item {
+        width: $item-width + px;
+    }
+}
+
+
