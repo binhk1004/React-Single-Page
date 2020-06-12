@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import styled from 'styled-components';
 import {Switch, Route, Redirect} from 'react-router-dom';
-import Page404 from "./pages/errors/Page404";
 import Home from "./pages/Home";
+import Page404 from "./pages/errors/Page404";
 import Header from "./components/Header";
 import Youtube from "./pages/Youtube";
 import Unsplash from "./pages/Unsplash";
@@ -47,8 +47,9 @@ function App() {
                 <Route exact path="/todo" component={Todo}/>
                 <Route exact path="/unsplash" component={Unsplash}/>
                 <Route exact path="/youtube" component={Youtube}/>
-                <Redirect exact from='/' to='/home'/>
-                <Route component={Page404}/>
+                <Route exact path="/React-Single-Page" component={Home}/>
+                <Redirect exact from='/React-Single-Page' to='/home'/>
+                {/*<Route component={Page404}/>*/}
 
             </Switch>
         </Container>
