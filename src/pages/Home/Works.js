@@ -12,8 +12,6 @@ function Works(props) {
       <Container>
 
             <TitleArea>
-                <p>따란</p>
-
                 <h2>
                    My works
                     <ShadowLine mt={30}/>

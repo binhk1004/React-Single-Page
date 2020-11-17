@@ -14,6 +14,7 @@ function WorkItem(props) {
           </Poster>
           <Description>
               <h3><a href={work.to}>{work.title}</a></h3>
+              <h8>{work.summary}</h8>
               <p>
                   {
                       work.skills.map((skill,index) => {

@@ -1,9 +1,10 @@
 import React from "react";
 import styled from 'styled-components'
 import {ContentContainer} from "../../components/layout/Layout.Styled";
-import {FaFacebookSquare} from "react-icons/fa";
+import {FaInstagramSquare} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaLinkedin} from "react-icons/fa";
+import {FaBlogger} from "react-icons/fa";
 import mapStateToProps from "react-redux/lib/connect/mapStateToProps";
 import {useSelector} from "react-redux";
 import cn from  'classnames'
@@ -21,14 +22,17 @@ function Bio(props) {
                         <h2>About Me</h2>
                         <p>궁금한게 너무나 많고 책읽고, 공부하기를 즐겨하는 개발자가 되고 싶은 '김빈현' 이라고 합니다!</p>
                         <div className="links">
-                            <a href="">
-                                <FaFacebookSquare/>
+                            <a href="https://www.instagram.com/bin_89_hyun/?hl=ko">
+                                <FaInstagramSquare/>
                             </a>
                             <a href="https://www.linkedin.com/in/bin-hyun-kim-4b8289b6/">
                                 <FaLinkedin/>
                             </a>
                             <a href="https://github.com/binhk1004">
                                 <FaGithub/>
+                            </a>
+                            <a href="https://velog.io/@binhk1004">
+                                <FaBlogger/>
                             </a>
                         </div>
                     </div>
