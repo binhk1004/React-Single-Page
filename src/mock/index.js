@@ -27,6 +27,6 @@ export const works = [
         thumb:'https://ifh.cc/g/Wle6JN.png',
         skills: ['' ],
         summary:'개발과 관련된 개인 기술 블로그 입니다.',
-        to: 'https://velog.io/@binhk1004s'
+        to: 'https://velog.io/@binhk1004'
     },
 ]
