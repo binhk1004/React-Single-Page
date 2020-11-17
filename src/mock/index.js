@@ -22,4 +22,11 @@ export const works = [
         summary:'Selenium과 Beautiful Soup을 이용한 야구정보 크롤러를 만들어 본 프로젝트 입니다. \nDB는 mysql DB를 사용하였습니다.',
         to: 'https://github.com/binhk1004/Baseball-Project'
     },
+    {
+        title:'개인 블로그',
+        thumb:'https://ifh.cc/g/Wle6JN.png',
+        skills: ['' ],
+        summary:'개발과 관련된 개인 기술 블로그 입니다.',
+        to: 'https://velog.io/@binhk1004s'
+    },
 ]
