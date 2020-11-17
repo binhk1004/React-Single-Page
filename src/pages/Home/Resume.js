@@ -28,7 +28,7 @@ function Resume(props) {
                       <ul>
                       <li>
                               <div className="card-item">
-                                  <h5>국내API팀 | 팀원</h5>
+                                  <h5>개발팀 | 팀원</h5>
                                   <h6>2020. 07 - 현재 | 백스테이션</h6>
                                   <p>Selenium 과 Beautiful Soup 를 이용하여 Python Crawler 제작 및 유지 보수</p>
                               </div>
