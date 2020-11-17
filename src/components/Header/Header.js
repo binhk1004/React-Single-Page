@@ -14,9 +14,9 @@ function Header() {
     return (
         <Container className={cn({openSideMenu: app.openSideMenu,showHeader:app.showHeader})}>
             <ContentContainer className={'container'}>
-                <Logo>Logo</Logo>
+                <Logo></Logo>
                 <Nav/>
-                <Button onClick={() => appActions.handlesidemenu(true)}>메뉴</Button>
+                <Button onClick={() => appActions.handlesidemenu(true)}></Button>
                 <SideMenu/>
             </ContentContainer>
         </Container>

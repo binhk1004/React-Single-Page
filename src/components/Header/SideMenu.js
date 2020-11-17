@@ -11,7 +11,7 @@ function SideMenu(props) {
 
     return (
         <Container>
-            Logo
+            
             <ul>
                 <li>sidemenu</li>
                 <li>sidemenu</li>

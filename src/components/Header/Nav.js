@@ -12,7 +12,7 @@ function Nav(props) {
             <ul>
                 <li>
                     <Link to={'/'}>
-                        home
+                        
                     </Link>
                 </li>
             </ul>
