@@ -19,7 +19,7 @@ function Bio(props) {
                 <BioContainer>
                     <div className="text">
                         <h2>About Me</h2>
-                        <p>아직은 서툴지만 코딩을 너무 좋아해서 개발자로 전직하기 위해 열심히 공부했어요!</p>
+                        <p>궁금한게 너무나 많고 책읽고, 공부하기를 즐겨하는 개발자가 되고 싶은 '김빈현' 이라고 합니다!</p>
                         <div className="links">
                             <a href="">
                                 <FaFacebookSquare/>

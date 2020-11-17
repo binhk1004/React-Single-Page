@@ -26,6 +26,13 @@ function Resume(props) {
                   <div className="item col-half">
                       <h3>My Experience</h3>
                       <ul>
+                      <li>
+                              <div className="card-item">
+                                  <h5>국내API팀 | 팀원</h5>
+                                  <h6>2020. 07 - 현재 | 백스테이션</h6>
+                                  <p>Selenium 과 Beautiful Soup 를 이용하여 Python Crawler 제작 및 유지 보수</p>
+                              </div>
+                          </li>
                           <li>
                               <div className="card-item">
                                   <h5>국내API팀 | 팀원</h5>
@@ -89,6 +96,11 @@ function Resume(props) {
                           <li>
                               <div className="skill">
                                   <Gauge title={'React'} percentage={30} label={'React'}/>
+                              </div>
+                          </li>
+                          <li>
+                              <div className="skill">
+                                  <Gauge title={'Python'} percentage={50} label={'Python'}/>
                               </div>
                           </li>
                       </ul>
