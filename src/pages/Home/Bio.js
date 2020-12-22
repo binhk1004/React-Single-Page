@@ -37,7 +37,7 @@ function Bio(props) {
                         </div>
                     </div>
                     <div className="photo">
-                        <img src="https://ifh.cc/g/5nB7L9.jpg" alt=""/>
+                        <img src="https://ifh.cc/g/RMhhw9.jpg" alt=""/>
                     </div>
 
                 </BioContainer>
